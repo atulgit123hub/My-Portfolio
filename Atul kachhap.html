@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atul Kachhap Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
+      scroll-behavior: smooth;
+    }
+
+    .header {
+      background: rgb(62, 61, 61);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+
+    .header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      animation: bounce 1.5s infinite;
+      box-shadow: 0 0 20px rgba(15, 217, 187, 0.4);
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      margin: 10px 0 5px;
+    }
+
+    .typewriter p {
+      font-size: 1.2em;
+      color: #00ff99;
+      animation: fadeGlow 3s ease-in-out infinite;
+    }
+
+    @keyframes fadeGlow {
+      0%, 100% {
+        opacity: 0.3;
+        text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99;
+      }
+      50% {
+        opacity: 1;
+        text-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99;
+      }
+    }
+
+    .header button {
+      padding: 12px 28px;
+      background-color: #00ff99;
+      border: none;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #00ff99;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 40px 10px;
+      background-color: #e0e0e0;
+    }
+
+    .feature-box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 20px;
+      margin: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #222;
+      color: white;
+    }
+
+    .footer a {
+      color: #00ff99;
+      margin: 250px;
+      font-size: 1.5em;
+    }
+
+    .footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQGcq_6OLOtmsg/profile-displayphoto-scale_200_200/B4DZg2as3bGgAg-/0/1753259631264?e=2147483647&v=beta&t=MRwB7V14LFyv9uUQZtCw68diIp7BK9AZ6pVOmsRkeF8" alt="Atul Kachhap" />
+    <h1>Hello I'm Atul Kachhap</h1>
+    <div class="typewriter">
+      <p>Computer Science and Engineering Student</p>
+    </div>
+    <button onclick="alert('Hello!')">Say Hello</button>
+  </div>
+
+  <div class="features">
+    <div class="feature-box">
+      <h2>About Me</h2>
+      <p>I'm a first-year Computer Science and Engineering student with a keen interest in technology, programming, and problem-solving. Passionate about learning the foundation of computer systems.</p>
+    </div>
+    <div class="feature-box">
+      <h2>Skills</h2>
+      <p>I possess a diverse skill set, including HTML, CSS, C language, and more.</p>
+    </div>
+    <div class="feature-box">
+      <h2>Hobbies</h2>
+      <p>Gaming, Coding, and Exploring New Technologies.</p>
+    </div>
+    <div class="feature-box">
+      <h2>Contact</h2>
+      <p>Email: kachhapatul0@gmail.com</p>
+      <p>Phone: +91 9835421XXX</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://www.linkedin.com/in/atul-kachhap-70052a374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a  href="https://github.com/atulgit123hub" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+
+</body>
+</html>
